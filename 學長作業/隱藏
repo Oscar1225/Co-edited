@@ -1,0 +1,49 @@
+<span class="sp">
+    <h1 class="bold">Let's activate your account</h1><br>
+    <h3>The application is fast,easy add only takes about 5 minutes</h3>
+</span>
+<span class="sp j">
+    <h2 class="b6">first name*</h2>
+    <h2>last name*</h2>
+</span>
+<span class="sp j">
+<input type="text" id="fristname" name="firstname" placeholder="   Nombre " class="line b">
+<input type="text" id="search" name="search" placeholder="   Apellido" class="line b">
+</span>
+<span class="sp j">
+<h2 class="b6">first name*</h2>
+<h2>last name*</h2>
+</span>
+<span class="sp j">
+<input type="text" id="fristname" name="firstname" placeholder="   Nombre " class="line b">
+<input type="text" id="search" name="search" placeholder="   Apellido" class="line b">
+</span>
+
+
+.b6{
+    margin-right: 405px;
+}
+.sp{
+    border: 3px solid gray;
+    line-height: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.j{
+    justify-content:left;
+    display: flex;
+}
+.line{
+    height: 50px;
+    width: 500px;
+}
+
+
+
+container5 裡面:
+    flex-direction: column;
+    background-color: white;

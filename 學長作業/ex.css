@@ -1,5 +1,7 @@
 body{
-    background-color: beige;
+    background: linear-gradient(45deg, pink 40%, white 50%, deepskyblue 60%);
+    height: 100vh;
+    margin: 0;
 }
 .container {
     display: flex;
